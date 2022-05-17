@@ -62,7 +62,7 @@ class UserProfilePage extends StatelessWidget {
                         style: Theme.of(context).textTheme.bodyText1,
                       ),
                       Text(
-                        user.following.toString(),
+                        user.publicReposAmount.toString(),
                         style: const TextStyle(fontSize: 18),
                       ),
                     ],
@@ -76,7 +76,7 @@ class UserProfilePage extends StatelessWidget {
                         style: Theme.of(context).textTheme.bodyText1,
                       ),
                       Text(
-                        user.followers.toString(),
+                        user.following.toString(),
                         style: const TextStyle(fontSize: 18),
                       ),
                     ],
@@ -90,7 +90,7 @@ class UserProfilePage extends StatelessWidget {
                         style: Theme.of(context).textTheme.bodyText1,
                       ),
                       Text(
-                        user.publicReposAmount.toString(),
+                        user.followers.toString(),
                         style: const TextStyle(fontSize: 18),
                       ),
                     ],
